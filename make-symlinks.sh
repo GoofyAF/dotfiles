@@ -6,14 +6,16 @@
 
 ########## Variables
 
+export USER="pop"
+
 # dotfiles directory
-dir=/home/deploy/dotfiles
+dir=/home/$USER/dotfiles
 
 # old dotfiles backup directory
-olddir=/home/deploy/Documents/dotfiles.bk
+olddir=/home/$USER/Documents/dotfiles.bk
 
 # list of files/folders to symlink in homedir
-files="vim viminfo vimrc inputrc"
+files="vim vimrc inputrc"
 
 ##########
 
@@ -30,5 +32,5 @@ for file in $files; do
     ln -s $dir/$file ~/.$file
 done
 
-cd /home/deploy
+cd /home/$USER
 vim -u NONE -c "helptags  ~/.vim/pack/vendor/start/indentLine/doc" -c "q"
