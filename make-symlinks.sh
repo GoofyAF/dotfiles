@@ -7,13 +7,13 @@
 ########## Variables
 
 # dotfiles directory
-dir=${DOT}
+dir=/home/pop/dotfiles
 
 # old dotfiles backup directory
-olddir=${DOTBK}
+olddir=/home/pop/Documents/dotfiles.bk
 
 # list of files/folders to symlink in homedir
-files="bashrc gitconfig functions"
+files="vim viminfo vimrc inputrc"
 
 ##########
 
