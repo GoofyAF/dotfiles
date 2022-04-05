@@ -25,5 +25,4 @@ git clone https://github.com/Yggdroot/indentLine.git vim/pack/vendor/start/inden
 The vim indentline plugis is courtesty of: https://github.com/Yggdroot/indentLine \
 The original guide on how to implement it is from: https://www.arthurkoziel.com/setting-up-vim-for-yaml \
 The make-symlinks script came from: https://betterprogramming.pub/managing-your-dotfiles-with-git-4dee603a19a2 \
-
 Thank you to all the developers/coders/sysadmins/nerds whose shoulders I stand on.
