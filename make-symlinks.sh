@@ -7,10 +7,10 @@
 ########## Variables
 
 # dotfiles directory
-dir=/home/pop/dotfiles
+dir=/home/deploy/dotfiles
 
 # old dotfiles backup directory
-olddir=/home/pop/Documents/dotfiles.bk
+olddir=/home/deploy/Documents/dotfiles.bk
 
 # list of files/folders to symlink in homedir
 files="vim viminfo vimrc inputrc"
@@ -29,3 +29,6 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
 done
+
+cd /home/deploy
+vim -u NONE -c "helptags  ~/.vim/pack/vendor/start/indentLine/doc" -c "q"
