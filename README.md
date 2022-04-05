@@ -14,6 +14,5 @@ This repo tracks vim dotfiles for my server/computer deployments. I've configure
 + profit?
 
 ### References, Sources, and Thanks
-quote: |
-The vim indentline plugis is courtesty of: https://github.com/Yggdroot/indentLine
-The original guide on how to implement it is from: https://www.arthurkoziel.com/setting-up-vim-for-yaml/
+The vim indentline plugis is courtesty of: https://github.com/Yggdroot/indentLine \
+The original guide on how to implement it is from: https://www.arthurkoziel.com/setting-up-vim-for-yaml
