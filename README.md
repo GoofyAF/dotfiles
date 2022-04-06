@@ -4,6 +4,9 @@
 
 This repo tracks vim dotfiles for my server/computer deployments. I've configured vim to autoindent and visually mark indents for yaml files, which saves a lot of troubleshooting for dockerized deployments.
 
++[All files in action, terminal is in Insert Mode](Terminal_Screenshot.png "Terminal Screenshot" )
+
+
 ## Deployment
 
 + Clone this repo, which will create a 'dotfiles' directory. 
