@@ -16,9 +16,9 @@ filetype indent on
 " Turn syntax highlighting on.
 syntax on
 
-: YAML config
+" YAML config
 au! BufNewFile,BufReadPost *.{yaml,yml} set filetype=yamlfoldmethod=indent
-Autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 let g:indentLine_char = '⦙'
 "let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
