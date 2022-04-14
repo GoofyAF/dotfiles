@@ -15,7 +15,7 @@ dir=/home/$USER/dotfiles
 olddir=/home/$USER/Documents/dotfiles.bk
 
 # list of files/folders to symlink in homedir
-files="vim vimrc inputrc"
+files="vim/pack/vendor/start/indentLine vimrc inputrc"
 
 ##########
 
